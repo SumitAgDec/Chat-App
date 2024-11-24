@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import Message from "./Message";
+import Message from "./Message.jsx";
 import useGetMessage from "../../context/useGetMessage.js";
 import Loading from "../../components/Loading.jsx";
 import useGetSocketMessage from "../../context/useGetSocketMessage.js";

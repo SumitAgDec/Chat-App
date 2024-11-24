@@ -1,7 +1,7 @@
 import React from "react";
-import ChatUser from "./ChatUser";
-import Messages from "./Messages";
-import Typesend from "./Typesend";
+import ChatUser from "./ChatUser.jsx";
+import Messages from "./Messages.jsx";
+import Typesend from "./Typesend.jsx";
 import useConversation from "../../zustand/useConversation.js";
 import Loading from "../../components/Loading.jsx";
 import { useAuth } from "../../context/AuthProvider.jsx";
